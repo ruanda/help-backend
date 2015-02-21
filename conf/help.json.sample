@@ -1,0 +1,19 @@
+{
+    "app" : {
+        "secret" : "scersssectrownshelingshossfernabligninfersessionseysonjuricemonn",
+        "mode" : "production"
+    },
+
+    "db" : {
+        "dsn" : "dbi:SQLite:dbname=trac.db",
+        "user" : "",
+        "password" : ""
+    },
+
+    "ldap" : {
+        "domain" : "example.com",
+        "basedn" : "DC=example,DC=com",
+        "ssl" : 1,
+        "cafile" : "/etc/ssl/certs/example.com.pem"
+    }
+}
